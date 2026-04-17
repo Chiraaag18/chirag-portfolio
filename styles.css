@@ -221,6 +221,7 @@ h1 span {
 .terminal-card,
 .stat-card,
 .story-card,
+.impact-card,
 .timeline-item,
 .stack-card,
 .project-card,
@@ -281,6 +282,7 @@ h1 span {
 
 .stat-grid,
 .story-grid,
+.impact-grid,
 .stack-layout,
 .projects-grid,
 .edu-cert-grid {
@@ -294,6 +296,7 @@ h1 span {
 
 .stat-card,
 .story-card,
+.impact-card,
 .stack-card,
 .project-card,
 .glass-card {
@@ -328,7 +331,12 @@ h1 span {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.impact-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .story-card h3,
+.impact-card h3,
 .timeline-content h3,
 .stack-card h3,
 .project-card h3,
@@ -340,6 +348,11 @@ h1 span {
 .timeline {
   display: grid;
   gap: 1rem;
+}
+
+.impact-card p {
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .timeline-item {
@@ -458,6 +471,7 @@ h1 span {
   .edu-cert-grid,
   .timeline-item,
   .story-grid,
+  .impact-grid,
   .stack-layout,
   .projects-grid {
     grid-template-columns: 1fr;
