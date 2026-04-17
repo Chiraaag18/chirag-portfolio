@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -19,6 +19,8 @@
   <body>
     <div class="ambient ambient-left"></div>
     <div class="ambient ambient-right"></div>
+    <div class="ambient ambient-center"></div>
+    <div class="noise"></div>
 
     <header class="site-header">
       <a class="brand" href="#top">CHIRAG</a>
@@ -35,6 +37,11 @@
       <section class="hero section">
         <div class="hero-copy reveal">
           <p class="eyebrow">Senior Software Engineer / Backend Heavy / AI Curious</p>
+          <div class="status-rail">
+            <span>Backend Systems</span>
+            <span>Realtime Analytics</span>
+            <span>GenAI Workflows</span>
+          </div>
           <h1>
             I build data-heavy products that feel
             <span>instant, intelligent, and production-ready.</span>
@@ -66,7 +73,7 @@
               <span></span>
             </div>
             <div class="terminal-body">
-              <p><span class="prompt">$</span> engineer.profile</p>
+              <p><span class="prompt">$</span> engineer.profile<span class="cursor"></span></p>
               <p class="terminal-line"><span>Name:</span> Chirag</p>
               <p class="terminal-line"><span>Primary Mode:</span> Backend Systems Engineer</p>
               <p class="terminal-line"><span>Current Theme:</span> Real-time analytics + GenAI</p>
@@ -222,7 +229,7 @@
           <article class="impact-card reveal">
             <h3>AI Pragmatism</h3>
             <p>
-              Iâ€™m most interested in AI when it improves product behavior: retrieval, orchestration,
+              I'm most interested in AI when it improves product behavior: retrieval, orchestration,
               streaming responses, and human-friendly tooling instead of hype.
             </p>
           </article>
