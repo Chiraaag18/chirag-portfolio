@@ -459,6 +459,10 @@ h1 span {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.projects-grid .project-card:first-child {
+  grid-column: 1 / -1;
+}
+
 .story-card h3,
 .impact-card h3,
 .timeline-content h3,
