@@ -452,6 +452,18 @@ h1 span {
   text-transform: uppercase;
 }
 
+.subsection-heading {
+  margin: 2.25rem 0 1.25rem;
+  max-width: 48rem;
+}
+
+.subsection-heading h3 {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  text-transform: none;
+}
+
 .story-grid,
 .impact-grid,
 .stack-layout,
@@ -461,6 +473,10 @@ h1 span {
 
 .projects-grid .project-card:first-child {
   grid-column: 1 / -1;
+}
+
+.legacy-projects .project-card:first-child {
+  grid-column: auto;
 }
 
 .story-card h3,
